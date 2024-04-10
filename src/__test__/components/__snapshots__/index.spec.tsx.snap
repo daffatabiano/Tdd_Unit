@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List component should render  1`] = `
+<div>
+  <ul
+    class="navbar-nav me-auto mb-2 mb-lg-0"
+  >
+    <li
+      class="nav-item"
+      role="presentation"
+    >
+      <a
+        aria-current="page"
+        class="nav-link active"
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+    <li
+      class="nav-item"
+    >
+      <a
+        class="nav-link"
+        href="/About"
+      >
+        About
+      </a>
+    </li>
+    <li
+      class="nav-item"
+    >
+      <a
+        aria-disabled="true"
+        class="nav-link disabled"
+        href=""
+      >
+        Disabled
+      </a>
+    </li>
+  </ul>
+</div>
+`;

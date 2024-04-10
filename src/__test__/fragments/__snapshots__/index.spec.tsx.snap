@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footers components should footer render 1`] = `
+<div>
+  <footer
+    class="footer bottom-0 p-10 bg-secondary text-neutral-content"
+  >
+    <div
+      class="items-center grid-flow-col"
+    >
+      <p>
+        Copyright © 
+        2024
+         - All right reserved
+      </p>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`Navbar components should navbar render 1`] = `
+<div>
+  <nav
+    class="navbar navbar-expand-lg bg-body-tertiary"
+  >
+    <div
+      class="container-fluid"
+    >
+      <a
+        class="navbar-brand"
+        href="/"
+      >
+        <img
+          alt=""
+          height="30"
+          loading="lazy"
+          src="/logo-travel.png"
+          width="30"
+        />
+      </a>
+      <button
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        class="navbar-toggler"
+        data-bs-target="#navbarSupportedContent"
+        data-bs-toggle="collapse"
+        type="button"
+      >
+        <span
+          class="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        class="collapse navbar-collapse"
+        id="navbarSupportedContent"
+      >
+        <form
+          class="d-flex"
+          role="search"
+        >
+          <input
+            aria-label="Search"
+            class="form-control me-2"
+            placeholder="Search"
+            type="search"
+          />
+          <button
+            class="btn btn-outline-success"
+            type="submit"
+          >
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</div>
+`;
